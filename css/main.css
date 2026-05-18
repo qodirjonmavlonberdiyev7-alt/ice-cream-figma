@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1165px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(252,241,244);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header  */
+
+.header {
+    background-color: rgb(252,241,244);
+}
+
+.header-inner {
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex: 1;
+    margin-left: 266px;
+    margin-right: 172px;
+}
+.header-item-link {
+    font-family: Roboto;
+font-weight: 700;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #150101;
+}
+.header-btn {
+font-family: Hind Madurai;
+font-weight: 700;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FAFAFA;
+background-color: #D23166;
+border: none;
+border-radius: 5px;
+padding: 14px 50px;
+}
+
+
+
+/* hero  */
+
+.hero {
+    background-color: rgb(252,241,244);
+}
+.hero-inner {
+    margin: 196px 451px 213px 9px;
+   
+}
+.hero-box {
+    width: 665px;
+     /* margin-top: 196px;
+    margin-left: 254px;
+    margin-right: 665.68px;
+    margin-bottom: 213px; */
+}
+.hero-title-first {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 10%;
+color: #0F0101;
+}
+.hero-title {
+    font-family: Fredoka One;
+font-weight: 400;
+font-size: 57.33px;
+leading-trim: NONE;
+line-height: 121%;
+letter-spacing: 0%;
+
+}
+.hero-text {
+    font-family: Hind Madurai;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 27px;
+letter-spacing: 0%;
+color: #0F0101;
+}
+.header-btn, .hero-btn {
+}
+
+span {
+    font-family: Fredoka One;
+font-weight: 400;
+font-size: 57.33px;
+leading-trim: NONE;
+line-height: 121%;
+letter-spacing: 0%;
+color: rgb(214,69,116);
+
+}
