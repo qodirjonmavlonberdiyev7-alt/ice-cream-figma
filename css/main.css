@@ -3,13 +3,17 @@
     padding: 0;
 }
 
+
+body {
+    background-color: rgb(252,241,244);
+}
+
 .container {
     max-width: 1165px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-color: rgb(252,241,244);
 }
 
 ul {
@@ -43,6 +47,12 @@ a {
     margin-left: 266px;
     margin-right: 172px;
 }
+
+.header-item-link:hover {
+  color: #D23166;
+  opacity: 1;
+}
+
 .header-item-link {
     font-family: Roboto;
 font-weight: 700;
@@ -51,6 +61,7 @@ leading-trim: NONE;
 line-height: 100%;
 letter-spacing: 0%;
 color: #150101;
+opacity: 60%;
 }
 .header-btn {
 font-family: Hind Madurai;
@@ -70,21 +81,22 @@ padding: 14px 50px;
 
 /* hero  */
 
+
 .hero {
-    background-color: rgb(252,241,244);
+}
+.container {
+    /* background-color: rgb(252,241,244); */
 }
 .hero-inner {
-    margin: 196px 451px 213px 9px;
-   
 }
 .hero-box {
-    width: 665px;
-     /* margin-top: 196px;
-    margin-left: 254px;
-    margin-right: 665.68px;
-    margin-bottom: 213px; */
+    margin-top: 196px;
+    margin-left: 9px;
+    margin-bottom: 213px;
+    max-width: 665px;
 }
 .hero-title-first {
+    margin-bottom: 6px;
     font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
@@ -94,13 +106,8 @@ letter-spacing: 10%;
 color: #0F0101;
 }
 .hero-title {
-    font-family: Fredoka One;
-font-weight: 400;
-font-size: 57.33px;
-leading-trim: NONE;
-line-height: 121%;
-letter-spacing: 0%;
-
+    max-width: 665px;
+    margin-bottom: 35px;
 }
 .hero-text {
     font-family: Hind Madurai;
@@ -109,18 +116,11 @@ font-size: 18px;
 leading-trim: NONE;
 line-height: 27px;
 letter-spacing: 0%;
-color: #0F0101;
+opacity: 60%;
+    max-width: 523px;
+    margin-bottom: 50px;
 }
-.header-btn, .hero-btn {
+.header-btn {
 }
-
-span {
-    font-family: Fredoka One;
-font-weight: 400;
-font-size: 57.33px;
-leading-trim: NONE;
-line-height: 121%;
-letter-spacing: 0%;
-color: rgb(214,69,116);
-
+.hero-btn {
 }
